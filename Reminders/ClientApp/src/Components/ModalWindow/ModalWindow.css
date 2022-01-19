@@ -1,0 +1,90 @@
+.modal-window {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border: 2px solid black;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  top: 20%;
+  z-index: 100;
+  background-color: white;
+}
+.modal-container {
+  position: absolute;
+  z-index: 10;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-content {
+  position: absolute;
+  text-align: center;
+  font-size: 18pt;
+  width: 100%;
+  height: 80%;
+  align-self: start;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  font-size: 25px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  width: 100%;
+  height: 50px;
+}
+
+.add-modal-btn {
+  background-color: rgba(49, 164, 79, 0.85);
+}
+
+.close-modal-btn {
+  background-color: rgba(0, 113, 240, 0.85);
+}
+
+.Nav {
+  width: 30%;
+  color: white;
+  text-decoration: none;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text-area {
+  resize: none;
+  border: 2px solid black;
+}
+.empty-text-label {
+  font-size: 10pt;
+  color: red;
+}
+
+.textCon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

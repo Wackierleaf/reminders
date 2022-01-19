@@ -1,0 +1,23 @@
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 15%;
+  width: fit-content;
+  align-items: center;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 28pt;
+  margin-right: 30%;
+}
+
+.add-btn {
+  color: #31a44f;
+}
+
+.delete-btn {
+  margin-left: 10px;
+  color: #d73a49;
+}

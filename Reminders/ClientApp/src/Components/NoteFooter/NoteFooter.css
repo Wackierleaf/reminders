@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 10pt;
+  color: #4b4a4a;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.dateTime {
+  display: flex;
+  flex-direction: column;
+}

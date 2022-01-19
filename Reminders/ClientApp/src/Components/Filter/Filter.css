@@ -1,0 +1,33 @@
+.Filter {
+  box-sizing: border-box;
+  font-size: 18pt;
+  border-radius: 5px;
+  border: 3px solid #626161;
+}
+
+.FilterCon {
+  display: flex;
+  margin-left: 8%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.FilterCon span {
+  font-size: 14pt;
+  margin: 0px 10px 0px 10px;
+  color: #4b4a4a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.filterActions {
+  font-size: 24pt;
+  cursor: pointer;
+  margin: 0px 10px 0px 10px;
+}
+
+.filterIcon {
+  color: rgb(93, 115, 241);
+}
+
+.closeFilterIcon {
+  color: #d73a49;
+}

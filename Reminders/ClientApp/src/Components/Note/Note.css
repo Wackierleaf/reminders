@@ -1,0 +1,41 @@
+.Note {
+  width: 325px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #8c8c8c;
+  border-radius: 5px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt;
+}
+
+.content {
+  color: #4b4a4a;
+  margin: 0px;
+  bottom: 15%;
+  padding: 0px 0px 0px 6px;
+  width: fit-content;
+  max-width: 315px;
+  height: 78%;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+
+.divide-line {
+  margin-bottom: 0;
+  background-color: #8f8e8e;
+  border: none;
+  height: 1px;
+  width: 95%;
+  border-radius: 2;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.delete-icon {
+  font-size: 24pt;
+  align-self: center;
+  cursor: pointer;
+  color: #d73a49;
+}

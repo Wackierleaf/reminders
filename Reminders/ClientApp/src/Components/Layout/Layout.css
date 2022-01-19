@@ -1,0 +1,18 @@
+.Layout {
+  position: relative;
+  z-index: 1;
+}
+
+.Notes {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+}
+
+.layout-hr {
+  height: 2px;
+  margin: 20px 5px;
+  background: #828282;
+  border: none;
+  border-radius: 2px;
+}
